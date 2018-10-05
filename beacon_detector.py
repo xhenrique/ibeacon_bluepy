@@ -15,7 +15,7 @@ class ScanDelegate(DefaultDelegate):
 
 def verifyBeacon(macBeacon): #function responsible for verify if we still in the beacon presence.
     global locked,scanner
-    achado = False
+    found = False
     print('Looking for beacon')
     while locked:
         devices = scanner.scan(3)
