@@ -7,7 +7,9 @@ To make the scan we need to install the bluepy lib.
 In case you use requests, the library used is requests-futures.
   To install type:
   <code>
+  
   $ pip install requests-futures
+  
   </code>
 
 
